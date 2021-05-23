@@ -198,14 +198,20 @@ img {
 }
 .one-portfolio {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-bottom: 50px;
   padding: 22px, 6px;
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
 }
-.one-portfolio .item:not(:last-child) {
+.one-portfolio-item {
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.one-portfolio .one-portfolio-item:not(:last-child) {
   margin-right: 8px;
 }
 .two-portfolio {
