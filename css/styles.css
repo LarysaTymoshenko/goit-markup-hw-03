@@ -117,9 +117,15 @@ img {
   color: var(--accent-text-color);
 }
 /* Студия, текст и заголовки*/
-.section {
-  padding-top: 94px;
+.section-color {
+  background: #f5f4fa;
   padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .section-one-title {
   font-weight: 700;
@@ -195,6 +201,9 @@ img {
   justify-content: space-evenly;
   margin-bottom: 50px;
   padding: 22px, 6px;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .one-portfolio .item:not(:last-child) {
   margin-right: 8px;
