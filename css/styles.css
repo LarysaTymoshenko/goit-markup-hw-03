@@ -294,6 +294,7 @@ img {
   background-color: var(--background-hero-footer-color);
   padding-bottom: 60px;
   padding-top: 60px;
+  padding-left: 215px;
 }
 .footer .logo {
   margin-bottom: 20px;
