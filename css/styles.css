@@ -225,6 +225,7 @@ img {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.71;
+  letter-spacing: 0.06em;
 }
 .one-portfolio {
   display: flex;
