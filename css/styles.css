@@ -19,7 +19,6 @@
   letter-spacing: 0.06em;
   color: var(--primery-text-color);
   background-color: var(--link-text-color);
-  max-width: 1600px;
 }
 /* сброс стилей*/
 h1,
@@ -42,6 +41,8 @@ ul {
 }
 img {
   display: blocks;
+  max-width: 100%;
+  height: auto;
 }
 
 .none-link {
@@ -56,13 +57,11 @@ img {
   align-items: center;
   margin: auto;
 }
+
 .header {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 215px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -75,28 +74,36 @@ img {
   margin-right: 93px;
 }
 
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .logo-header {
   color: var(--primery-text-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
+
 .logo-footer {
   color: var(--link-text-color);
 }
+
 .container {
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 .site-nav .link,
 .contact .contact-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  line-height: 1.17;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+
 .contact {
   margin: 0px;
 }
@@ -115,9 +122,16 @@ img {
 .site-nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Ссылки и контакты в хедере и футере*/
@@ -135,7 +149,7 @@ img {
 /* Студия, текст и заголовки*/
 .section-color {
   background: #f5f4fa;
-  padding-bottom: 0px;
+  padding-bottom: 94px;
   padding-top: 94px;
 }
 
@@ -182,7 +196,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
-  margin-top: 30px;
 }
 /* Наша команда*/
 .comand {
@@ -296,7 +309,6 @@ img {
   background-color: var(--background-hero-footer-color);
   padding-bottom: 60px;
   padding-top: 60px;
-  padding-left: 215px;
 }
 .footer .logo {
   margin-bottom: 20px;
