@@ -242,7 +242,7 @@ img {
 }
 .one-portfolio {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
