@@ -65,7 +65,6 @@ img {
 }
 .header-line {
   border: 1px solid #ececec;
-  padding: 32px;
 }
 
 .logo {
@@ -104,6 +103,7 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
+  display: block;
 }
 .link {
   padding-top: 32px;
