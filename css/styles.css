@@ -226,13 +226,16 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-.list-section .item {
+.list-section .item-comand {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
 .list-section .item:not(:first-child) {
+  margin-left: 30px;
+}
+.list-section .item-comand:not(:first-child) {
   margin-left: 30px;
 }
 
@@ -326,13 +329,17 @@ img {
   margin-bottom: 20px;
   margin-right: 0px;
 }
-.footer-list:not(:last-child) {
+.contact-footer .footer-list:not(:last-child) {
   margin-bottom: 9px;
+}
+.contact-footer {
+  display: block;
 }
 
 .contact-footer .link {
   font-family: inherit;
   color: var(--contact-footer-color);
+  display: block;
 }
 .address-footer {
   color: var(--link-text-color);
