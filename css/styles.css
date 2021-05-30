@@ -323,30 +323,30 @@ img {
   color: var(--link-text-color);
   background-color: var(--background-hero-footer-color);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
+
 .container-footer .logo {
-  margin-bottom: 20px;
   margin-right: 0px;
+  display: block;
+  margin-bottom: 20px;
 }
 .contact-footer .footer-list:not(:last-child) {
   margin-bottom: 9px;
 }
-.contact-footer {
-  display: block;
-}
+
 .container-footer {
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  display: block;
-  padding-bottom: 60px;
 }
 
 .contact-footer .link {
   font-family: inherit;
   color: var(--contact-footer-color);
 }
+
 .address-footer {
   color: var(--link-text-color);
 }
