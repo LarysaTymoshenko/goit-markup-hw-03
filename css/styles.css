@@ -322,10 +322,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--link-text-color);
   background-color: var(--background-hero-footer-color);
-  padding-bottom: 60px;
   padding-top: 60px;
 }
-.footer .logo {
+.container-footer .logo {
   margin-bottom: 20px;
   margin-right: 0px;
 }
@@ -335,11 +334,18 @@ img {
 .contact-footer {
   display: block;
 }
+.container-footer {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+  padding-bottom: 60px;
+}
 
 .contact-footer .link {
   font-family: inherit;
   color: var(--contact-footer-color);
-  display: block;
 }
 .address-footer {
   color: var(--link-text-color);
